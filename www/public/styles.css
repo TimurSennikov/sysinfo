@@ -1,0 +1,150 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #3a3a3a;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: #acacac;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}abody {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.info p {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.slider-container {
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+}
+
+.slider-container label {
+    flex: 1;
+    font-size: 16px;
+}
+
+.slider-container input[type="range"] {
+    flex: 2;
+    margin: 0 10px;
+    -webkit-appearance: none;
+    appearance: none;
+    height: 8px;
+    background: #ddd;
+    outline: none;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.slider-container input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    background: #007bff;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+.slider-container input[type="range"]::-moz-range-thumb {
+    width: 20px;
+    height: 20px;
+    background: #007bff;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+.slider-container span {
+    font-size: 16px;
+    width: 50px;
+    text-align: right;
+}
+
+@media (max-width: 600px) {
+    body {
+        background-color: #e0e0e0;
+    }
+
+    .container {
+        margin: 20px;
+    }
+
+    h1 {
+        font-size: 20px;
+    }
+
+    .info p {
+        font-size: 16px;
+    }
+
+    .slider-container label {
+        font-size: 14px;
+    }
+
+    .slider-container span {
+        font-size: 14px;
+    }
+}
+
+
+.info p {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+@media (max-width: 600px) {
+    body {
+        background-color: #e0e0e0;
+    }
+
+    .container {
+        margin: 20px;
+    }
+
+    h1 {
+        font-size: 20px;
+    }
+
+    .info p {
+        font-size: 16px;
+    }
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}

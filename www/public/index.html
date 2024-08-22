@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Системная информация</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Информация о системе</h1>
+        <div class="info">
+            <div class="slider-container">
+                <label for="memory-usage-slider">Использованная память:</label>
+                <input type="range" id="memory-usage-slider" min="0" max="100" value="0" disabled>
+                <span id="used-memory">--</span> GB
+            </div>
+            <div class="slider-container">
+                <label for="free-memory-slider">Свободная память:</label>
+                <input type="range" id="free-memory-slider" min="0" max="100" value="0" disabled>
+                <span id="free-memory">--</span> GB
+            </div>
+            <p>Hostname: <span id="hostname">--</span></p>
+            <p>Аптайм системы: <span id="uptime">--</span></p>
+
+            <img src="/syslogo.png" width=300 height=300 class="center"></img>
+        </div>
+    </div>
+
+    <script src="script.js" id="syslogo"></script>
+</body>
+</html>
